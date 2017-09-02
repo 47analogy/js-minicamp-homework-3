@@ -1,0 +1,38 @@
+
+Objects - A type of class that holds a combination of variables, functions, and other types of data structures to manipulate data. Think of it as a data container.
+
+i.e. 
+var person = {
+    firstName:"John",
+    lastName:"Doe",
+    age:50,
+    eyeColor:"blue"
+};
+
+=================================
+Properties -  an atrribute of an object that defines something about an object (size, color, etc.). Basically, they are values for that object. Think of it as a special variable on object
+
+i.e. in the example above firstName is a property of the person object.
+
+
+==================================
+Methods - A procedure associated with an object. A method is an action that an object can perform, such as a function.
+
+i.e. 
+console.log
+console is the object and log is a method of this object that does something (output).
+
+===================================
+for in loop - A type of loop that iterates over the properties of an object.
+
+
+==================================
+Dot notation vs bracket notation - Two types of ways to manipulate (such as add or return) properties to objects. Dot notation should always be used unless the property name is unknown.
+
+i.e.
+
+users.username is dot notation
+users['username'] is bracket notation
+
+
+
